@@ -1,1 +1,0 @@
-aikyu gros porc
