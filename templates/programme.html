@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme de Colle</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #333;
+        }
+        th {
+            background-color: #1f1f1f;
+            color: #ffffff;
+        }
+        tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+        tr:hover {
+            background-color: #444;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .navigation a {
+            color: #4c7fe6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .colle-info {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .colle-item {
+            color: #03dac5;
+            font-size: 1.5em;
+            margin-top: 10px;
+            background: #1e1e1e;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center; /* Centrer le texte */
+            margin-bottom: 20px; /* Espacement supplémentaire entre les colles */
+        }
+    </style>
+</head>
+<body>
+    <h1>Programme de Colle - Semaine du {{ semaine }}</h1>
+
+    <div class="navigation">
+        {% if semaine_precedente != "Pas de données" %}
+            <a href="/{{ semaine_precedente }}">← Semaine précédente</a>
+        {% endif %}
+        {% if semaine_suivante != "Pas de données" %}
+            <a href="/{{ semaine_suivante }}">Semaine suivante →</a>
+        {% endif %}
+    </div>
+    
+    <table>
+        <tr>
+            <th>Semaine</th>
+            <th>Groupe</th>
+            <th>Matière</th>
+            <th>Colleurs</th>
+            <th>Jour</th>
+            <th>Heure</th>
+            <th>Salle</th>
+        </tr>
+        {% for ligne in tableau %}
+        <tr>
+            <td>{{ ligne['Semaine'] }}</td>
+            <td>{{ ligne['Groupe'] }}</td>
+            <td>{{ ligne['Matiere'] }}</td>
+            <td>{{ ligne['Colleurs'] }}</td>
+            <td>{{ ligne['Jour'] }}</td>
+            <td>{{ ligne['Heure'] }}</td>
+            <td>{{ ligne['Salle'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- Section pour afficher les colles de manière plus visible -->
+    <div class="colle-info">
+        <h2>Colles de la semaine</h2>
+        {% for ligne in tableau %}
+            <div class="colle-item">
+                {{ ligne['Jour'] }} , {{ ligne['Matiere'] }} , {{ ligne['Heure'] }} , {{ ligne['Salle'] }}
+            </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
