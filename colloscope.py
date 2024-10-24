@@ -86,7 +86,7 @@ def afficher_programme(semaine=None):
     # Logs pour vérifier les semaines actuelles et suivantes
     print(f"Semaine actuelle : {semaine}, Semaine suivante : {semaine_suivante}, Semaine précédente : {semaine_precedente}")
 
-    return render_template('programme.html', tableau=tableau, semaine=semaine.replace('/', '-'), semaine_suivante=semaine_suivante, semaine_precedente=semaine_precedente)
+    return render_template('index.html', tableau=tableau, semaine=semaine.replace('/', '-'), semaine_suivante=semaine_suivante, semaine_precedente=semaine_precedente)
 
 if __name__ == '__main__':
     app.run(debug=True)
