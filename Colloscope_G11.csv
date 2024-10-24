@@ -1,22 +1,22 @@
-Semaine,Groupe,Matiere,Colleurs,Jour,Heure,Salle
-11/11/24,"TDB,G3,TIPE B",Maths,Objois,Lundi,17h30-18h25,GE312
-11/11/24,"TDB,G3,TIPE B",SI,Dupas,Lundi,11h10-12h05,LVD206
-11/11/24,"TDB,G3,TIPE B",Anglais,Wauquier,Jeudi,10h10-11h05,LVD213
-18/11/24,"TDA,G1,TIPE A",Maths,Trochon,Jeudi,16h30-17h25,GE113
-18/11/24,"TDA,G1,TIPE A",Physique,Collo,Lundi,17h30-18h25,LVD213
-25/11/24,"TDB,G2,TIPE B",Maths,Besson,Mercredi,15h30-16h25,LVD213
-25/11/24,"TDB,G2,TIPE B",SI,Dupas,Jeudi,16h30-17h25,LVD206
-25/11/24,"TDB,G2,TIPE B",Anglais,Guillerit,Mercredi,14h20-15h15,GE113
-02/12/24,"TDB,G3,TIPE A",Maths,Oumida,Jeudi,17h30-18h25,GE07
-02/12/24,"TDB,G3,TIPE A",Physique,Tremblay,Lundi,18h30-19h25,GE120
-09/12/24,"TDA,G1,TIPE A",Maths,Jullian,Jeudi,16h30-17h25,GE312
-09/12/24,"TDA,G1,TIPE A",SI,Lefait,Mercredi,13h20-14h15,LVD205
-09/12/24,"TDA,G1,TIPE A",Anglais,Khamkham,Mercredi,16h30-17h25,GE118
-16/12/24,"TDB,G2,TIPE B",Maths,Oumida,Jeudi,16h30-17h25,GE07
-16/12/24,"TDB,G2,TIPE B",Physique,Tremblay,Lundi,17h30-18h25,GE120
-16/12/24,"TDB,G2,TIPE B",Francais,Champavere,Mercredi,14h20-15h15,GE118
-06/01/25,"TDB,G3,TIPE B ",Maths,Poulot-Cazajous,Lundi,17h30-18h25,GE308
-06/01/25,"TDB,G3,TIPE B ",SI,Lefait,Jeudi,12h20-13h15,LVD206
-06/01/25,"TDB,G3,TIPE B ",Anglais,Gandrey,Jeudi,16h30-17h25,Z3
-13/01/25,"TDA,G1,TIPE A",Maths,Objois,Lundi,16h30-17h25,GE312
-13/01/25,"TDA,G1,TIPE A",Physique,Ben Bacha,Jeudi,16h30-17h25,GE120
+    Semaine,Groupe,Matiere,Colleurs,Jour,Heure,Salle
+    11/11/24,"TDB,G3,TIPE B",Maths,Objois,Lundi,17h30-18h25,GE312
+    11/11/24,"TDB,G3,TIPE B",SI,Dupas,Lundi,11h10-12h05,LVD206
+    11/11/24,"TDB,G3,TIPE B",Anglais,Wauquier,Jeudi,10h10-11h05,LVD213
+    18/11/24,"TDA,G1,TIPE A",Maths,Trochon,Jeudi,16h30-17h25,GE113
+    18/11/24,"TDA,G1,TIPE A",Physique,Collo,Lundi,17h30-18h25,LVD213
+    25/11/24,"TDB,G2,TIPE B",Maths,Besson,Mercredi,15h30-16h25,LVD213
+    25/11/24,"TDB,G2,TIPE B",SI,Dupas,Jeudi,16h30-17h25,LVD206
+    25/11/24,"TDB,G2,TIPE B",Anglais,Guillerit,Mercredi,14h20-15h15,GE113
+    02/12/24,"TDB,G3,TIPE A",Maths,Oumida,Jeudi,17h30-18h25,GE07
+    02/12/24,"TDB,G3,TIPE A",Physique,Tremblay,Lundi,18h30-19h25,GE120
+    09/12/24,"TDA,G1,TIPE A",Maths,Jullian,Jeudi,16h30-17h25,GE312
+    09/12/24,"TDA,G1,TIPE A",SI,Lefait,Mercredi,13h20-14h15,LVD205
+    09/12/24,"TDA,G1,TIPE A",Anglais,Khamkham,Mercredi,16h30-17h25,GE118
+    16/12/24,"TDB,G2,TIPE B",Maths,Oumida,Jeudi,16h30-17h25,GE07
+    16/12/24,"TDB,G2,TIPE B",Physique,Tremblay,Lundi,17h30-18h25,GE120
+    16/12/24,"TDB,G2,TIPE B",Francais,Champavere,Mercredi,14h20-15h15,GE118
+    06/01/25,"TDB,G3,TIPE B ",Maths,Poulot-Cazajous,Lundi,17h30-18h25,GE308
+    06/01/25,"TDB,G3,TIPE B ",SI,Lefait,Jeudi,12h20-13h15,LVD206
+    06/01/25,"TDB,G3,TIPE B ",Anglais,Gandrey,Jeudi,16h30-17h25,Z3
+    13/01/25,"TDA,G1,TIPE A",Maths,Objois,Lundi,16h30-17h25,GE312
+    13/01/25,"TDA,G1,TIPE A",Physique,Ben Bacha,Jeudi,16h30-17h25,GE120
